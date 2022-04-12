@@ -1,19 +1,6 @@
-/*
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
-*/
+import Link from 'next/link'
+
+
 const callouts = [
     {
       name: 'Desk and Office',
@@ -62,7 +49,8 @@ const callouts = [
                   <p className="text-base font-semibold text-gray-900">{callout.description}</p>
                   <div class="inline-flex">
                 <button class="bg-blue-800 hover:bg-gray-400  m-2 text-white font-bold py-2 px-4 rounded-md">
-                    Дэлгэрэнгүй
+                   
+          Дэлгэрэнгүй
                 </button>
                 <button class="bg-yellow-300 hover:bg-gray-400 m-2 text-gray-800 font-bold py-2 px-4 rounded-md">
                     Дэмо үзэх
